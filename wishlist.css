@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:wght@700&display=swap');
+
+
+
+
+/* Fonts */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Navigation */
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.nav-link:hover {
+    color: #18382B;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #18382B;
+    color: #18382B;
+}
+
+
+/* Spacing */
+.full-height {
+    height: 100vh;
+}
+
+body {
+    color: #18382B;
+    border-color: #18382B;
+    background: #e6f2e9;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.table-wrapper {
+    width: 700px;
+    margin: 30px auto;
+    background:  white;
+    padding: 20px;	
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-radius: 30px;
+  
+
+}
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+.table-title .add-new i {
+    margin-right: 4px;
+}
+table.table {
+    table-layout: fixed;
+
+}
+table.table tr th, table.table tr td {
+    border-color: #18382B;
+    background-color: white;
+    color: #18382B;
+   
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table th:last-child {
+    width: 100px;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}    
+table.table td a.add {
+    color: #27C46B;
+}
+table.table td a.edit {
+    color: #FFC107;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+table.table td i {
+    font-size: 19px;
+}
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}    
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+table.table .form-control.error {
+    border-color: #f50000;
+}
+table.table td .add {
+    display: none;
+}
+
+.fikus{
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+
+.parlour-palm{
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+
+.white{
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+
+.table-bordered{
+    border-radius: 50px;
+}
